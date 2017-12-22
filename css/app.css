@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: seagreen;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: mediumblue;
+}
+
+.box-pesquisar {
+    text-align: center;
+    padding-top: 220px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-pesquisar input {
+    background: seagreen;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 80%;
+    height: 35px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+::placeholder {
+    color: white;
+}
+
+.load {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.artigo {
+    background: white;
+    color: seagreen;
+    padding: 10px 10px;
+    max-width: 680px;
+    border: 1px solid white;
+    margin: 10px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 769px) {
+    .artigo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .box-pesquisar input {
+        width: 60%;
+        height: 40px;
+        font-size: 24px;
+    }
+}
+
+.erro {
+    margin: 0 auto;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
