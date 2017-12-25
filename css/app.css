@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 html {
-    background: seagreen;
+    background: rgb(52, 34, 36);
     color: white;
 }
 
@@ -22,7 +22,7 @@ a {
 }
 
 .box-pesquisar input {
-    background: seagreen;
+    background: rgb(52, 34, 36);
     color: white;
     border: 2px solid white;
     border-radius: 50px;
@@ -44,7 +44,7 @@ a {
 
 .artigo {
     background: white;
-    color: seagreen;
+    color: rgb(52, 34, 36);
     padding: 10px 10px;
     max-width: 680px;
     border: 1px solid white;
